@@ -1,4 +1,8 @@
 /* General Styles */
+@font-face {
+  font-family: "AKbalthom Freehand";
+  src: url(AKBALTHOM\ FREEHAND\ REGULAR.TTF);
+}
 * {
   margin: 0;
   padding: 0;
