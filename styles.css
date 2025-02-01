@@ -15,14 +15,6 @@
   .event {
     padding: 10px;
   }
-  header {
-    background: url("songkranmobile.png");
-    background-size: cover;
-  }
-  body {
-    background: url("songkranmobile.png");
-    background-size: cover;
-  }
 }
 
 body {
