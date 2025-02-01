@@ -15,6 +15,9 @@
   .event {
     padding: 10px;
   }
+  body {
+    background-size: auto;
+  }
 }
 
 body {

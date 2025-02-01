@@ -1,9 +1,20 @@
 // Countdown Timer
 const countdownElement = document.getElementById("countdown");
+const getelement = document.getElementById("data-dynamic");
 
 // Set the date we're counting down to (April 13, 2024)
 const countDownDate = new Date("April 13, 2025 00:00:00").getTime();
 
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
+// Get the 'name' parameter from the URL
+const name = getQueryParam("name");
+if (name) {
+  getelement.innerHTML = "សូមស្វាគមន៏ " + name + " មកកាន់ ប៉ាវិនសង្រ្កាន 2025";
+}
 // Update the countdown every 1 second
 const countdownInterval = setInterval(() => {
   const now = new Date().getTime();
