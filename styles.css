@@ -15,10 +15,18 @@
   .event {
     padding: 10px;
   }
+  header {
+    background: url("songkranmobile.png");
+    background-size: cover;
+  }
+  body {
+    background: url("songkranmobile.png");
+    background-size: cover;
+  }
 }
 
 body {
-  background: url("https://img.freepik.com/free-vector/flat-songkran-background_23-2149334308.jpg?t=st=1738404115~exp=1738407715~hmac=1cfd9379ecec4357f2bc945e09d627f6c4bef5695a82fe772edb3fd01d7eeccb&w=1380");
+  background: url("songkranmobile.png");
   font-family: "Arial", sans-serif;
   line-height: 1.6;
   background-color: #f4f4f9;
@@ -33,7 +41,6 @@ header {
   color: #ffd700;
   text-align: center;
   padding: 20px 10px;
-  background: linear-gradient(135deg, #ff7f50, #ff4500);
 }
 
 header h1 {
