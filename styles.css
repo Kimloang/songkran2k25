@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://img.freepik.com/free-vector/flat-songkran-background_23-2149334308.jpg?t=st=1738404115~exp=1738407715~hmac=1cfd9379ecec4357f2bc945e09d627f6c4bef5695a82fe772edb3fd01d7eeccb&w=1380");
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "AKbalthom Freehand";
+}
+
+header {
+  color: #ffd700;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  color: #ffd700;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+#countdown {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.about,
+.agenda {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about:hover,
+.agenda:hover {
+  transform: translateY(-5px);
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.agenda h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #e6f7ff;
+  border-left: 5px solid #00bfff;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.event:hover {
+  background: #d1eaff;
+}
+
+.event h3 {
+  margin-bottom: 10px;
+  color: #007acc;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500,
+      0 0 40px #ff4500;
+  }
+  100% {
+    text-shadow: 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500,
+      0 0 50px #ff4500, 0 0 60px #ff4500;
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.anime-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500,
+    0 0 40px #ff4500;
+  animation: glow 1.5s infinite alternate, scale 2s infinite ease-in-out;
+  font-family: "AKbalthom Freehand";
+}
