@@ -3,7 +3,7 @@ const countdownElement = document.getElementById("countdown");
 const getelement = document.getElementById("data-dynamic");
 
 // Set the date we're counting down to (April 13, 2024)
-const countDownDate = new Date("April 13, 2025 00:00:00").getTime();
+const countDownDate = new Date("April 14, 2025 04:48:00").getTime();
 
 function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
